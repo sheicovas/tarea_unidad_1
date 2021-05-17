@@ -1,3 +1,5 @@
 manzanas
 bananas
 frutillas
+pan 
+milanesas
