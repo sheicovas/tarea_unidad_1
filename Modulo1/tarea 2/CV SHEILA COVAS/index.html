@@ -5,33 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Sheila Covas</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
-<body>
-    <h1>Sheila Covas</h1>
-    <img src="foto_cv.png" alt="Foto">
-    <p>Soy estudiante de Diseño y Comunicación Visual. Me encanta investigar y aprender de forma autodidacta. Actualmente estoy explorando el mundo IT y Diseño
-        Web.</p>
-
-    <ul>
-        <li>Edad: 30 años</li>
-        <li>Nacionalidad: Argentina</li>
-        <li>Domicilio: Buenos Aires, Argentina</li>
-    </ul>
+<body> 
+    <section class="container">
+        <h1>Sheila Covas</h1>
+        <img src="foto_cv.png" alt="Foto">
+        <article class="item">
+             <p>Soy estudiante de Diseño y Comunicación Visual. Me encanta investigar y aprender de forma autodidacta. Actualmente estoy explorando el mundo IT y Diseño
+              Web.</p>
+        </article>      
+        <article class="item">
+                <ul>
+                  <li>Edad: 30 años</li>
+                  <li>Nacionalidad: Argentina</li>
+                  <li>Domicilio: Buenos Aires, Argentina</li>
+                </ul>
+        </article> 
+    </section>  
+    <section class="container">
+        <article class="item">       
+            <h3>¿Qué series me gustan?</h3>
+                 <ul>
+                     <li>Sherlock</li> 
+                     <li>Los Simuladores</li>
+                     <li>Game of Thrones</li>
+                 </ul>
+            <h3>Qué pelis son las que más me gustan?</h3>
+                 <ul>
+                      <li>El Padrino I, II y III</li>
+                      <li>The Truman Show</li>
+                 </ul>
+        </article>          
+    </section>
     
-    <h3>¿Qué series me gustan?</h3>
-    <ul>
-       <li>Sherlock</li> 
-       <li>Los Simuladores</li>
-       <li>Game of Thrones</li>
-    </ul>
-
-    <h3>Qué pelis son las que más me gustan?</h3>
-    <ul>
-        <li>El Padrino I, II y III</li>
-        <li>The Truman Show</li>
-    </ul>
-    
-    <form>
+    <form class="form">
         <label>Nombre Completo:</label>
         <input type="text" name="nombre_completo">
         <label>Dirección de Email:</label>
