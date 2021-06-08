@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript avanzado </title>
+</head>
+<body>
+    <div class="container">
+        <div class="cuadrado rosa" onclick="cambiarFondo('pink')"></div>
+        <div class="cuadrado azul" onclick="cambiarFondo('blue')"></div>
+        <div class="cuadrado amarillo" onclick="cambiarFondo('yellow')"></div>
+    </div>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .cuadrado{
+            height: 150px;
+            width: 150px;
+        }
+
+        .rosa{
+            background-color: pink;
+        }
+
+        .azul{
+            background-color: blue;
+        }
+
+        .amarillo{
+            background-color: yellow;
+        }
+    </style>
+    <script>
+        function cambiarFondo(color) {
+            document.querySelector('body').style.background = color;
+        }
+    </script>
+</body>
+</html>
