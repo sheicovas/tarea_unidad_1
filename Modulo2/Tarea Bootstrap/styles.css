@@ -1,0 +1,33 @@
+
+* {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+
+h3, p {
+    color: black;
+    font-weight: 700;
+}
+
+.nav-item {
+    color: white;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    color: black;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: burlywood;
+}
+
+.row {
+    padding-top: 50px;
+}
+
+.ejemplos {
+    background-color: black;
+}
